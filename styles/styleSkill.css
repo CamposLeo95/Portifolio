@@ -1,0 +1,110 @@
+/*
+ -> Paleta de cores   
+    #45DDDA;
+    #09D6D3;
+    #06A8A4;
+    #035755;
+    #576161;
+    #303636; 
+    #181b1b;
+*/
+
+.container-slider{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;   
+}
+
+.container-images{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+#skill{
+    width: 100vw;
+    height: 80vh;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #ffffffb4, #035755);
+    padding: 30px;
+}
+
+.h2 {
+    height: 10%;
+    margin-top: 20px;
+}
+
+.h2 > h2 {
+    font-size: 2rem;
+}
+
+.card-skill{
+    position: absolute;
+    opacity: 0;
+    transition: ease-in-out .2s;
+    width: 70%;
+    max-width: 350px;
+    height: 30vh;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    background: #ffffff73;
+}
+
+.on{
+    opacity: 1;
+}
+
+#btn-prev, #btn-next{
+    width: 70px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#btn-prev img, #btn-next img{
+    width: 100%;
+    height: 100%;
+}
+
+#btn-prev{
+    transform:rotate(180deg) ;
+}
+
+.img-icon{
+    width: 55%;
+    max-width: 150px;
+}
+
+button > img{
+    opacity: 0.1;
+}
+button > img:hover{
+
+    opacity: 0.6;
+}
+
+@media screen and (min-width:550px) {
+    #skill{
+        flex-direction: row;
+    }
+
+    .card-skill{
+        margin: 10px;
+    }
+}
+

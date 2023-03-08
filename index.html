@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styleGlobal.css">
+    <link rel="stylesheet" href="./styles/styleHome.css">
+    <link rel="stylesheet" href="./styles/styleSkill.css">
+
+    <script src="script.js" defer></script>
+
+    <title>Leo Campos</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Home -->
+        <section id="home">
+            <header>
+                <span class="logo">logo</span>
+                <div class="menu">
+                    <span class="material-symbols-outlined" id="btn-menu">menu</span>
+                </div>
+                <nav id="nav-menu-pc">
+                    <span class="logo-menu">logo</span>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#skill">Projetos</a></li>
+                        <li><a href="#skill">Contatos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <nav id="nav-menu-cel">
+                <span class="logo-menu">logo</span>
+                <ul>
+                    <li><a href="#home" id="link-home">Home</a></li>
+                    <li><a href="#skill" id="link-skill">Skills</a></li>
+                    <li><a href="#skill" id="link-projeto">Projetos</a></li>
+                    <li><a href="#skill" id="link-contato">Contatos</a></li>
+                </ul>
+            </nav>
+            
+            <div class="card-home">
+                <div class="card-left">
+                    <h1>Leonardo Campos</h1>
+                    <h3>Full-Stack Developer</h3>
+                    <p>Olá, meu nome é Leonardo Augusto de Campos, sou desenvolvedor e moro no Brasil.</p>
+                </div>
+
+                <div class="card-rigth">
+                    <img src="./assets/dev.png" alt="" id="dev-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill -->
+        <section id="skill">
+
+            <div class="h2">
+                <h2>Tecnologias</h2>
+            </div>
+            
+            <div class ="container-slider">   
+                <button id="btn-prev"><img src="./assets/seta.png" alt="next-seta"></button>
+                <div class="container-images">
+                    <div class="card-skill on">
+                        <img class="img-icon" src="./assets/js.png" alt="icon-js">
+                    </div> 
+                    <div class="card-skill">
+                        <img class="img-icon" src="./assets/react.png" alt="icon-js">
+                    </div> 
+                    <div class="card-skill">
+                        <img class="img-icon" src="./assets/node.png" alt="icon-js">
+                    </div> 
+                    <div class="card-skill">
+                        <img class="img-icon" src="./assets/html.png" alt="icon-js">
+                    </div> 
+                    <div class="card-skill">
+                        <img class="img-icon" src="./assets/css.png" alt="icon-js">
+                    </div> 
+                </div>
+                <button id="btn-next"><img src="./assets/seta.png" alt="next-seta"></button>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/*
+ -> Paleta de cores   
+    #45DDDA
+    #09D6D3
+    #06A8A4
+    #035755
+    #576161
+    #303636  
+    #181b1b 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 200vh;
+
+}
